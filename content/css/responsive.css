@@ -16,6 +16,9 @@ h1{
     width: 100%;
     height: auto;
 }
+.gal iframe{
+    width: 100%;
+}
 .des{
     padding: 15px;
     text-align: center;
@@ -43,5 +46,8 @@ section{
 @media (max-width: 500px) {
     .responsive{
         width: 100%;
+    }
+    .des iframe{
+        height: 150vh;
     }
 }

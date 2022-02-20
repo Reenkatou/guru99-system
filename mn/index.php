@@ -30,6 +30,8 @@ if (!isset($_SESSION['SESSION_EMAIL'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../content/css/responsive.css">
+    <link rel="icon" href="../mn/content/section/" sizes="48x48">
+    
     <title>responsive image</title>
     <?php require('navbar.php'); ?>
 </head>
@@ -83,6 +85,12 @@ if (!isset($_SESSION['SESSION_EMAIL'])) {
             <a href="../content/section/XSysiUZ.jpg" target="_blank"><video width="300" height="200" poster="../content/section/XSysiUZ.jpg" controls>
                 <source src="../content/trailer/BATUH - MODOD.mp4" type="video/mp4">
             </video></a>
+            <div class="des"><a href="../content/section/XSysiUZ.jpg">8. Add a description of the image here</a></div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class=" gallery gal">
+            <a href="../content/section/XSysiUZ.jpg" target="_blank"><iframe width="300" height="250" src="https://www.youtube.com/embed/gdA3PMOseto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></a>
             <div class="des"><a href="../content/section/XSysiUZ.jpg">8. Add a description of the image here</a></div>
         </div>
     </div>
